@@ -62,7 +62,7 @@ fin_inc$inc_1st_quint_d <- ifelse(fin_inc$inc_q == "Poorest 20%",1,0)
 fin_inc$inc_2nd_quint_d <- ifelse(fin_inc$inc_q == "Second 20%",1,0)
 fin_inc$inc_3rd_quint_d <- ifelse(fin_inc$inc_q == "Middle 20%",1,0)
 fin_inc$inc_4th_quint_d <- ifelse(fin_inc$inc_q == "Fourth 20%",1,0)
-#After generating two new dummy variables out of the original "educ" variable, the original "educ" variable will be deleted#
+#After generating four new dummy variables out of the original "inc_q" variable, the original "inc_q" variable will be deleted#
 fin_inc$inc_q <- NULL
 
 #Variable Transformation - "emp_in" (Workforce Status)#
