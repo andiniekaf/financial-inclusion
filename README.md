@@ -15,5 +15,4 @@ Launched by the World Bank with funding from Bill & Melinda Gates Foundation, Fi
 
 The survey targets 1000 adults age 15 and above in Indonesia, and includes questions on access to and use of formal and informal financial services. It has additional data on the use of financial technology (or fintech), including the use of mobile phones and the internet to conduct financial transactions.
 
-The details on the description of each survey question can be found on http://microdata.worldbank.org/index.php/catalog/3361/datafile/F3. 
-Head over to "micro_idn_var
+The details on the description of each survey question can be found on http://microdata.worldbank.org/index.php/catalog/3361/datafile/F3.
