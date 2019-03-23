@@ -1,4 +1,4 @@
-# financial-inclusion
+# Financial Inclusion in Indonesia: How is it affected by age, education, income, and workforce status?
 About The Analysis
 
 This repository aims to measure the effects of demographic variables (age, education, income, and workforce status) on 3 proxies of financial inclusion: formal account ownership, formal saving behavior, and formal borrowing behavior. A logistic regression analysis with the help of R software is used to crunch the data and draw insights from it.
