@@ -173,7 +173,7 @@ for (k in 1:400){fin_inc_boot <- fin_inc[sample(nrow(fin_inc), 700), ]
 glm.formalborrow.boot <- glm(formal_borrow ~ age + age2 + gender + emp_in + educ_tertiary_d + educ_secondary_d + inc_4th_quint_d + inc_3rd_quint_d + inc_2nd_quint_d + inc_1st_quint_d, data = fin_inc_boot, family = "binomial")
 prob_formalborrow_boot <- predict(glm.formalborrow.boot, type = "response")
 pred_formalborrow_boot <- ifelse(prob_formalborrow_boot > 0.4,1,0)
-conf_formalborrow_boot[k] <- mean(fin_inc_boot$formal_borrow == pred_formalsaving_boot)}
+conf_formalborrow_boot[k] <- mean(fin_inc_boot$formal_borrow == pred_formalborrow_boot)}
 
 mean(conf_formalborrow_boot)
 #The accuracy rate mean of the bootstrapped sample is 75.94%#
