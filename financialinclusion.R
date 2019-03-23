@@ -28,7 +28,7 @@ str(fin_inc)
 
 ##VARIABLE TRANSFORMATION AND GENERATION##
 #Variable Transformation - "age"#
-fin_inc$age <- is.numeric(fin_inc$age) #Variable "age" was previously non-numeric, this code is meant to transform age into a numeric variable#
+fin_inc$age <- as.numeric(fin_inc$age) #Variable "age" was previously non-numeric, this code is meant to transform age into a numeric variable#
 str(fin_inc$age) 
 #"age" is now already a numeric variable
 
